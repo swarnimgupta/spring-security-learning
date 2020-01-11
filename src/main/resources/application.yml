@@ -1,0 +1,21 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: spring-security-learning
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/company?useSSL=true
+    username: root
+    password: Sammy@2895
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update
+  main:
+    banner-mode: off
+#  security:
+#    user:
+#      name: root
+#      password: Sammy@2895
