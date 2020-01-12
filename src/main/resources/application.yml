@@ -12,7 +12,10 @@ spring:
     show-sql: true
     database-platform: org.hibernate.dialect.MySQL5Dialect
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
+  #    properties:
+  #      hibernate:
+  #        format_sql: true
   main:
     banner-mode: off
 #   Default user to be created for spring security dependency
