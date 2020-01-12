@@ -7,22 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @Slf4j
-public class Controller {
+public class MainController {
+
     @GetMapping("/")
     public ResponseToUser welcome() {
         log.info("Accessing normal welcome method for expose");
         return new ResponseToUser("Welcome");
     }
 
-    @GetMapping("/user")
-    public ResponseToUser welcomeUser() {
-        log.info("Accessing user welcome method for expose");
-        return new ResponseToUser("Welcome User");
-    }
-
-    @GetMapping(value = "/admin")
-    public ResponseToUser welcomeAdmin() {
-        log.info("Accessing admin welcome method for expose");
-        return new ResponseToUser("Welcome Admin");
-    }
 }
