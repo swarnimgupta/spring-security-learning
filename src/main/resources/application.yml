@@ -15,6 +15,7 @@ spring:
       ddl-auto: update
   main:
     banner-mode: off
+#   Default user to be created for spring security dependency
 #  security:
 #    user:
 #      name: root

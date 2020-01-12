@@ -15,7 +15,7 @@ public class Controller {
         return "<h1>Welcome User</h1>";
     }
 
-    @RequestMapping("/admin")
+    @RequestMapping(value = "/admin")
     public String welcomeAdmin() {
         return "<h1>Welcome Admin</h1>";
     }
