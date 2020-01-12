@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 public class UserController {
 
-    @GetMapping("/")
+    @GetMapping("")
     public ResponseToUser welcomeUser() {
         log.info("Accessing user welcome method for expose");
         return new ResponseToUser("Welcome User");

@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 public class AdminController {
 
-    @GetMapping("/")
+    @GetMapping("")
     public ResponseToUser welcomeAdmin() {
         log.info("Accessing admin welcome method for expose");
         return new ResponseToUser("Welcome Admin");
