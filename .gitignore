@@ -57,3 +57,5 @@ target
 Maven*
 .mvn
 mvn*
+src/main/resources/static/
+src/main/resources/templates/
